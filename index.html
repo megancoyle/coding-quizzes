@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.3/angular.min.js"></script>
+  <script src="./questions.js"></script>
+  <script src="./app.js"></script>
+  <link rel="stylesheet" type="text/css" href="./styles.css">
+</head>
+<body ng-app="questions" ng-controller="questionsController as vm" ng-keyup="vm.next($event)">
+<div ng-repeat="item in vm.items" class='inline-block'>
+  <input type='checkbox' name='{{item}}' id='{{item}}' ng-model="vm.selected[item]" ng-change="vm.update()">
+  <label for='{{item}}'>
+    {{item}}
+  </label>
+</div>
+<h1>{{vm.currentQuestion}}</h1>
+
+  <div ng-show="vm.currentQuestionIndex != undefined && vm.questions.length !== 0" class='bottom-right'>
+  {{vm.currentQuestionIndex + 1}}/{{vm.questions.length}}
+  </div>
+  <div class='bulb' ng-click="vm.toggleLight()">&#128161;</div>
+</body>
+</html>
