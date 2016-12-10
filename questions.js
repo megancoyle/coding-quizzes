@@ -51,7 +51,8 @@ var questions = {
     "How can you highlight text in HTML?",
     "What are optional closing tags? Why would you use them?",
     "What is the difference between span and div?",
-    "What is semantic HTML?"
+    "What is semantic HTML?",
+    "What is progressive rendering?",
   ],
   "JS": [
     "Explain how this works in JavaScript.",
@@ -76,6 +77,22 @@ var questions = {
     "What are two-way data binding and one-way data flow, and how are they different?",
     "What are the pros and cons of monolithic vs microservice architectures?",
     "What is asynchronous programming, and why is it important in JavaScript?",
+    "What's the difference between null and undefined?",
+  ],
+  "JS: Algorithm": [
+    "Verify a prime number?",
+    "Find all prime factors of a number?",
+    "Get nth Fibonacci number?",
+    "How would you reverse words in a sentence?",
+    "How would you merge two sorted arrays?",
+    "How would you remove duplicate members from an array?",
+    "How would you find the greatest common divisor of two numbers?",
+    "How would you verify a word as palindrome?",
+    "Reverse a string in JavaScript.",
+    "Find the first non repeating char in a string.",
+    "Get two numbers that equal to a given number.",
+    "Find the largest sum of any two elements.",
+    "Check whether a given string is a substring of a bigger string.",
   ],
   "Network": [
     "List all the HTTP actions you know and explain them.",
