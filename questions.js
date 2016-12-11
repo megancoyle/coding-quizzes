@@ -104,5 +104,8 @@ var questions = {
     "What is JSX?",
     "Tell me about Flux",
     "What are stateless components?",
+    "Explain the Virtual DOM.",
+    "How would you create Higher Order Components (HOCs) in React?",
+    "What are pure functional Components?",
   ]
 }
