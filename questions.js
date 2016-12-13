@@ -53,6 +53,8 @@ var questions = {
     "What is the difference between span and div?",
     "What is semantic HTML?",
     "What is progressive rendering?",
+    "Explain standard and quirks mode.",
+    "What is an optional tag?",
   ],
   "JS": [
     "Explain how this works in JavaScript.",
