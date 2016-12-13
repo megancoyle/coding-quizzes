@@ -78,6 +78,9 @@ var questions = {
     "What are the pros and cons of monolithic vs microservice architectures?",
     "What is asynchronous programming, and why is it important in JavaScript?",
     "What's the difference between null and undefined?",
+    "What are the different ways to get an element from the DOM?",
+    "How would you destroy multiple list items with one click handler?",
+    "How can you verify whether one element is the child of another?"
   ],
   "JS: Algorithm": [
     "Verify a prime number?",
