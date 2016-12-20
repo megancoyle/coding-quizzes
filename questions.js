@@ -40,6 +40,8 @@ var questions = {
     "How can you clear sides of a floating element?",
     "How can you fix floated points that don't add up to the height of the parent?",
     "Explain the difference between div, p; div p; div > p; div + p; p ~ ul",
+    "What are some accessibility concerns in CSS?",
+    "What tools do you use for cross-browser testing?",
   ],
   "HTML":[
     "What does doctype do?",
@@ -98,6 +100,12 @@ var questions = {
     "Get two numbers that equal to a given number.",
     "Find the largest sum of any two elements.",
     "Check whether a given string is a substring of a bigger string.",
+  ],
+  "MySQL": [
+    "Using SELECT statement, find the version of the server you are running and print the name of the current database.",
+    "Is it possible to implement 'AND' with NOT (!) Operator?",
+    "What IFNULL() statement is used for in MySQL?",
+
   ],
   "Network": [
     "List all the HTTP actions you know and explain them.",
