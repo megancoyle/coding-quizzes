@@ -105,7 +105,9 @@ var questions = {
     "Using SELECT statement, find the version of the server you are running and print the name of the current database.",
     "Is it possible to implement 'AND' with NOT (!) Operator?",
     "What IFNULL() statement is used for in MySQL?",
-
+    "What is MySQL?",
+    "What is BLOB and TEXT in MySQL?",
+    "What is a trigger in MySQL?",
   ],
   "Network": [
     "List all the HTTP actions you know and explain them.",
