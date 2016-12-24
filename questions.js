@@ -122,5 +122,6 @@ var questions = {
     "Explain the Virtual DOM.",
     "How would you create Higher Order Components (HOCs) in React?",
     "What are pure functional Components?",
+    "Tell me about actions, stores, and dispatchers in Flux.",
   ]
 }
