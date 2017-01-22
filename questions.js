@@ -42,6 +42,7 @@ var questions = {
     "Explain the difference between div, p; div p; div > p; div + p; p ~ ul",
     "What are some accessibility concerns in CSS?",
     "What tools do you use for cross-browser testing?",
+    "What are selectors?",
   ],
   "HTML":[
     "What does doctype do?",
